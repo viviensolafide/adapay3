@@ -1,0 +1,67 @@
+#dropdown-menu-2btn-d .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-2btn-d .navbar-brand a {
+  font-size: 30px;
+}
+#dropdown-menu-2btn-d .nav .link,
+#dropdown-menu-2btn-d .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+}
+#dropdown-menu-2btn-d .navbar,
+#dropdown-menu-2btn-d .dropdown-menu {
+  background: #444444;
+}
+#dropdown-menu-2btn-d .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-2btn-d .dropdown-menu a:hover,
+#dropdown-menu-2btn-d .dropdown-menu a:focus {
+  background: #3a3a3a;
+}
+#dropdown-menu-2btn-d .navbar-toggler {
+  color: #ffffff;
+}
+#slider-i P {
+  color: #ffffff;
+}
+#msg-box3-1b .mbr-header .mbr-header__text {
+  text-align: center;
+}
+#msg-box3-1b .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#msg-box3-1b .mbr-article P {
+  text-align: center;
+}
+#features1-1t P {
+  text-align: center;
+}
+#content4-1c .mbr-section__col .mbr-header__text {
+  text-align: center;
+}
+#content4-1c P {
+  text-align: center;
+}
+#content5-r .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #fff;
+}
+#content5-r .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-r .mbr-article {
+  color: #fff;
+}
+#content5-r .mbr-article P {
+  text-align: center;
+}
+#contacts1-1q STRONG {
+  color: #ffffff;
+}
+#contacts1-1q P {
+  color: #ffffff;
+}
+#footer1-1r P {
+  color: #ffffff;
+}
