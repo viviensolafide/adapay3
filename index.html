@@ -1653,6 +1653,49 @@
     <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
 
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <style>
+        .btn-primary, .btn-primary:active, .btn-primary.active {
+            background-color: #ff9248;
+            border-color: #ff9248;
+            color: #ffffff;
+        }
+
+        .btn-primary:hover, .btn-primary:focus, .btn-primary.focus {
+            color: #ffffff;
+            background-color: #fa6500;
+            border-color: #fa6500;
+        }
+
+        .btn-primary.disabled, .btn-primary:disabled {
+            color: #ffffff;
+            background-color: #fa6500;
+            border-color: #fa6500;
+        }
+
+        .btn-primary-outline, .btn-primary-outline:active, .btn-primary-outline.active {
+            background: none;
+            border-color: #e15b00;
+            color: #e15b00;
+        }
+
+        .btn-primary-outline:hover, .btn-primary-outline:focus, .btn-primary-outline.focus {
+            color: #ffffff;
+            background-color: #ff9248;
+            border-color: #ff9248;
+        }
+
+        .btn-primary-outline.disabled, .btn-primary-outline:disabled {
+            color: #ffffff;
+            background-color: #ff9248;
+            border-color: #ff9248;
+        }
+
+        .btn-secondary-outline, .btn-secondary-outline:active, .btn-secondary-outline.active {
+            background: none;
+            border-color: #00b8e3;
+            color: #00b8e3;
+        }
+    </style>
 </head>
 <body>
 
@@ -1676,32 +1719,13 @@
             </button>
 
             <ul class="nav-dropdown collapse pull-xs-right navbar-toggleable-sm nav navbar-nav" id="exCollapsingNavbar">
-                <li class="nav-item dropdown"><a class="nav-link link dropdown-toggle" data-toggle="dropdown-submenu"
-                                                 href="https://customer.jaqun.com/" aria-expanded="false">FEATURES</a>
-                    <div class="dropdown-menu"><a class="dropdown-item" href="https://customer.jaqun.com/">Mobile
-                        friendly</a><a
-                            class="dropdown-item" href="https://customer.jaqun.com/">Based on Bootstrap</a>
-                        <div class="dropdown"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown-submenu"
-                                                 href="https://customer.jaqun.com/">Trendy blocks</a>
-                            <div class="dropdown-menu dropdown-submenu"><a class="dropdown-item"
-                                                                           href="https://customer.jaqun.com/">Image/content
-                                slider</a><a class="dropdown-item" href="https://customer.jaqun.com/">Contact
-                                forms</a><a
-                                    class="dropdown-item" href="https://customer.jaqun.com/">Image gallery</a><a
-                                    class="dropdown-item" href="https://customer.jaqun.com/">Mobile menu</a><a
-                                    class="dropdown-item" href="https://customer.jaqun.com/">Google maps</a><a
-                                    class="dropdown-item" href="https://customer.jaqun.com/">Social buttons</a><a
-                                    class="dropdown-item" href="https://customer.jaqun.com/">Google fonts</a><a
-                                    class="dropdown-item" href="https://customer.jaqun.com/">Video background</a></div>
-                        </div>
-                        <a class="dropdown-item" href="https://customer.jaqun.com/">Host anywhere</a></div>
+                <li class="nav-item nav-btn">
+                    <a class="nav-link btn btn-default-outline btn-default"
+                       href="https://merchant.jaqun.com/login">LOGIN AS MERCHANT</a>
                 </li>
-                <li class="nav-item"><a class="nav-link link" href="https://customer.jaqun.com/">HELP</a></li>
-                <li class="nav-item nav-btn"><a class="nav-link btn btn-default-outline btn-default"
-                                                href="https://customer.jaqun.com/">LOGIN</a></li>
-                <li class="nav-item nav-btn"><a class="nav-link btn btn-danger"
-                                                href="https://customer.jaqun.com/register">SIGN UP</a>
-                </li>
+                <li class="nav-item nav-btn">
+                    <a class="nav-link btn btn-danger"
+                       href="https://customer.jaqun.com/">LOGIN AS CUSTOMER</a></li>
             </ul>
 
         </div>
@@ -1738,11 +1762,12 @@
                                             across 10 million stores worldwide. Stay protected no matter where you
                                             shop.</p>
                                     </div>
-                                    <div class="mbr-buttons btn-inverse mbr-buttons--left mbr-buttons--right"><a
-                                            class="mbr-buttons__btn btn btn-lg btn-danger"
-                                            href="https://customer.jaqun.com/register/">SIGN
-                                        UP NOW</a> <a class="mbr-buttons__btn btn btn-lg btn-default"
-                                                      href="https://customer.jaqun.com/">LEARN MORE</a></div>
+                                    <div class="mbr-buttons btn-inverse mbr-buttons--left mbr-buttons--right">
+                                        <a class="mbr-buttons__btn btn btn-lg btn-danger"
+                                           href="https://customer.jaqun.com/register/">SIGN UP AS CUSTOMER</a> <a
+                                            class="mbr-buttons__btn btn btn-lg btn-default"
+                                            href="https://merchant.jaqun.com/signup/">SIGN UP AS MERCHANT</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1755,7 +1780,7 @@
                         <div class=" container">
 
                             <div class="row">
-                                <div class=" col-md-offset-1 col-md-6">
+                                <div class=" col-md-offset-1 col-md-7">
 
                                     <div class="mbr-hero">
                                         <h1 class="mbr-hero__text">Secure online payments at the speed of want.</h1>
@@ -1764,11 +1789,12 @@
                                             information to make online payments. With just an email address and
                                             password, you can securely check out.</p>
                                     </div>
-                                    <div class="mbr-buttons btn-inverse mbr-buttons--left"><a
-                                            class="mbr-buttons__btn btn btn-lg btn-danger"
-                                            href="https://customer.jaqun.com/register/">SIGN
-                                        UP NOW</a> <a class="mbr-buttons__btn btn btn-lg btn-default"
-                                                      href="https://customer.jaqun.com/">LEARN MORE</a></div>
+                                    <div class="mbr-buttons btn-inverse mbr-buttons--left">
+                                        <a class="mbr-buttons__btn btn btn-lg btn-danger"
+                                           href="https://customer.jaqun.com/register/">SIGN UP AS CUSTOMER</a><a
+                                            class="mbr-buttons__btn btn btn-lg btn-default"
+                                            href="https://merchant.jaqun.com/signup/">SIGN UP AS MERCHANT</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1790,11 +1816,12 @@
                                             adaPay, you can get up to S$500 refund if you need to cancel your trip.<br>
                                         </p>
                                     </div>
-                                    <div class="mbr-buttons btn-inverse mbr-buttons--center"><a
-                                            class="mbr-buttons__btn btn btn-lg btn-danger"
-                                            href="https://customer.jaqun.com/register/">SIGN
-                                        UP NOW</a> <a class="mbr-buttons__btn btn btn-lg btn-default"
-                                                      href="https://customer.jaqun.com/">LEARN MORE</a></div>
+                                    <div class="mbr-buttons btn-inverse mbr-buttons--center">
+                                        <a class="mbr-buttons__btn btn btn-lg btn-danger"
+                                           href="https://customer.jaqun.com/register/">SIGN UP AS CUSTOMER</a> <a
+                                            class="mbr-buttons__btn btn btn-lg btn-default"
+                                            href="https://merchant.jaqun.com/signup/">SIGN UP AS MERCHANT</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1853,23 +1880,8 @@
     </div>
 </section>
 
-<section class="youtube2 cid-qIYOTbIL2g" id="youtube2-3u">
 
-
-    <div class="container">
-        <div class="mbr-row mbr-justify-content-center">
-            <div class="video-title mbr-col-sm-12 align-center mbr-col-md-6">
-                <h2 class="mbr-section-title mbr-fonts-style mbr-light display-5">See how adaPay works</h2>
-            </div>
-            <div class="video-block">
-                <amp-youtube width="16" height="9" layout="responsive" data-videoid="lBTCB7yLs8Y"></amp-youtube>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="info1 cid-qJ3cpJZ6C8" id="info1-5s">
+<section class="info1 cid-qJ3cpJZ6C8" style="background-color: rgba(255,255,255,0)" id="info1-5s">
 
 
     <div class="container">
@@ -1889,7 +1901,7 @@
     </div>
 </section>
 
-<section class="features1 mbr-section cid-qIYRa9d2Ix" id="features1-48">
+<section class="features1 mbr-section cid-qIYRa9d2Ix" style="background-color: rgba(255,255,255,0)" id="features1-48">
 
 
     <div class="container">
@@ -1979,10 +1991,6 @@
                             The power of a virtual terminal, cash register, recurring billing solution, and invoicing
                             software in the simplicity of a point-of-sale interface.<br>
                         </p>
-                        <div class="mbr-section-btn align-left"><a class="btn btn-sm btn-primary display-4"
-                                                                   href="https://customer.jaqun.com/">
-                            LEARN MORE
-                        </a></div>
                     </div>
                 </div>
             </div>
@@ -2001,10 +2009,6 @@
                             Seeing business performance has never been easier. Payment, customer, and even custom field
                             data is at your fingertips in our intuitive report builder.
                         </p>
-                        <div class="mbr-section-btn align-left"><a class="btn btn-sm btn-primary display-4"
-                                                                   href="https://customer.jaqun.com/">
-                            LEARN MORE
-                        </a></div>
                     </div>
                 </div>
             </div>
@@ -2022,10 +2026,6 @@
                             Set up recurring payment schedules for any product or service. Customers can even purchase a
                             recurring product or service package from your website.<br><br>
                         </p>
-                        <div class="mbr-section-btn align-left"><a class="btn btn-sm btn-primary display-4"
-                                                                   href="https://customer.jaqun.com/">
-                            LEARN MORE
-                        </a></div>
                     </div>
                 </div>
             </div>
@@ -2043,10 +2043,6 @@
                             Send email invoices instantly, get paid online. Customers can log-in to their secure
                             accounts, with saved payment information, or pay as guests.<br><br>
                         </p>
-                        <div class="mbr-section-btn align-left"><a class="btn btn-sm btn-primary display-4"
-                                                                   href="https://customer.jaqun.com/">
-                            LEARN MORE
-                        </a></div>
                     </div>
                 </div>
             </div>
@@ -2074,8 +2070,7 @@
     <div class="mbr-container">
         <div class="mbr-section-btn align-center"><a class="btn btn-primary display-4"
                                                      href="https://customer.jaqun.com/register/">SIGN
-            UP FOR FREE!</a>
-            <a class="btn btn-black-outline display-4" href="https://customer.jaqun.com/">LEARN MORE</a></div>
+            UP AS CUSTOMER NOW!</a></div>
     </div>
 </section>
 
